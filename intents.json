@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "basics",
+      "patterns": [
+        "how to start farming?",
+        "farming basics",
+        "how do i get started of farming",
+        "farming",
+        "what is organic farming?"
+      ],
+      "responses": [
+        "Choose Something to Produce .Learn the Ins and Outs of Your Product .Figure Out Your Finances .",
+        "agriculture which makes healthy food via healthy fertilizers"
+      ]
+    }
+  
+,
+{
+  "tag": "soil",
+  "patterns": [
+    "what are the fertile soils?",
+    "best soil"
+    
+  ],
+  "responses": [
+    "contains all the major nutrients",
+    "Loamy-textured soils "
+  ]
+}
+,
+{
+"tag": "market",
+"patterns": [
+  "current market rate of wheat? ",
+  "current market rate of rice ? "
+  
+],
+"responses": [
+  "Rs 2500 INR /quintal in 2022 ",
+  "Rs 1500 INR /quintal in 2022"
+]
+}
+,
+{
+  "tag": "climate",
+  "patterns": [
+    " which climate to produce wheat? ",
+    "which climate to produce rice?",
+    "how many month to produce wheat?",
+    "how many month to produce rice?"
+    
+  ],
+  "responses": [
+    "winter season",
+    "hot and humid climate",
+    "7 to 8 months",
+    "120 days"
+  ]
+  }
+  ,
+  {
+    "tag": "greetings",
+    "patterns": [
+      "hi",
+      "hello",
+      "Hey"
+      
+    ],
+    "responses": [
+      "hi.. iam agrobot how can i help you?",
+      "hi.. iam your virtual assistant how can i help you?"
+    ]
+    }
+    ,
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye"
+        
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "have a nice day",
+        "Bye! Come back again soon."
+      ]
+      }
+]
+}

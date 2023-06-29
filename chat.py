@@ -40,7 +40,7 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.65:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
@@ -51,7 +51,7 @@ def get_response(msg):
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
+        # sentence = "do you use credit and debit cards?"
         sentence = input("You: ")
         if sentence == "quit":
             break

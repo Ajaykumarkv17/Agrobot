@@ -11,7 +11,7 @@ This repo currently contains the starter files.
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ git clone https://github.com/Ajaykumarkv17/Agrobot.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
 $ . venv/bin/activate
